@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>אוברולים – הדסה</title>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="header-inner">
+    <nav>
+      <a href="index.html" aria-label="בית">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="display:block">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+      </a>
+      <a href="smalot.html">שמלות</a>
+      <a href="overalim.html" class="active">אוברולים</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <h1>🧥 אוברולים</h1>
+  <p>קולקציית אוברולים - לוק שלם בפריט אחד</p>
+</section>
+
+<!-- ===== FILTER BAR ===== -->
+<div class="filter-bar">
+  <span class="filter-label">סנני לפי:</span>
+  <button class="filter-btn active" data-filter="all">הכל</button>
+  <button class="filter-btn" data-filter="dark">כהה 🖤</button>
+  <button class="filter-btn" data-filter="light">בהיר 🤍</button>
+  <button class="filter-btn" data-filter="leo">מנומר 🐆</button>
+</div>
+
+<!-- ===== PRODUCTS GRID ===== -->
+<section class="products-section">
+  <div class="products-grid products-grid--3col" id="productsGrid">
+
+    <!-- ===== LEO / מנומר ===== -->
+
+    <!-- לאופרד קלאסי -->
+    <div class="product-card" data-color="leo">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/15.jpg"  class="active" alt="לאופרד קלאסי">
+          <img src="overall-imgs/16.jpg"  alt="לאופרד קלאסי">
+          <img src="overall-imgs/17.jpg"  alt="לאופרד קלאסי">
+          <img src="overall-imgs/145.jpg" alt="לאופרד קלאסי">
+          <img src="overall-imgs/179.jpg" alt="לאופרד קלאסי">
+          <img src="overall-imgs/180.jpg" alt="לאופרד קלאסי">
+          <img src="overall-imgs/Gemini_Generated_Image_z6tm6wz6tm6wz6tm.png" alt="לאופרד קלאסי">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול לאופרד</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- ===== LIGHT / בהיר ===== -->
+
+    <!-- גלים כחול-טורקיז -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/1.jpg"   class="active" alt="אוברול גלים כחול">
+          <img src="overall-imgs/13.jpg"  alt="אוברול גלים כחול">
+          <img src="overall-imgs/14.jpg"  alt="אוברול גלים כחול">
+          <img src="overall-imgs/142.jpg" alt="אוברול גלים כחול">
+          <img src="overall-imgs/165.jpg" alt="אוברול גלים כחול">
+          <img src="overall-imgs/166.jpg" alt="אוברול גלים כחול">
+          <img src="overall-imgs/Gemini_Generated_Image_3u681k3u681k3u68.png" alt="אוברול גלים כחול">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול גלים כחול-טורקיז</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- פסים צבעוניים -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/10.jpg" class="active" alt="אוברול פסים צבעוניים">
+          <img src="overall-imgs/11.jpg" alt="אוברול פסים צבעוניים">
+          <img src="overall-imgs/12.jpg" alt="אוברול פסים צבעוניים">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול פסים צבעוניים</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- פסים ירוק -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/25.jpg" class="active" alt="אוברול פסים ירוק">
+          <img src="overall-imgs/26.jpg" alt="אוברול פסים ירוק">
+          <img src="overall-imgs/27.jpg" alt="אוברול פסים ירוק">
+          <img src="overall-imgs/28.jpg" alt="אוברול פסים ירוק">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול פסים ירוק</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- גלים ורוד-אדום -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/35.jpg" class="active" alt="אוברול גלים ורוד">
+          <img src="overall-imgs/36.jpg" alt="אוברול גלים ורוד">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול גלים ורוד</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- ===== DARK / כהה ===== -->
+
+    <!-- שחור מוצק -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/149.jpg" class="active" alt="אוברול שחור">
+          <img src="overall-imgs/150.jpg" alt="אוברול שחור">
+          <img src="overall-imgs/151.jpg" alt="אוברול שחור">
+          <img src="overall-imgs/152.jpg" alt="אוברול שחור">
+          <img src="overall-imgs/153.jpg" alt="אוברול שחור">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול שחור אלגנטי</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- עלים שחור-לבן -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/50.jpg"  class="active" alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/51.jpg"  alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/52.jpg"  alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/155.jpg" alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/156.jpg" alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/157.jpg" alt="אוברול עלים שחור-לבן">
+          <img src="overall-imgs/162.jpg" alt="אוברול עלים שחור-לבן">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול עלים שחור-לבן</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- פסים כהים-כתום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/53.jpg"  class="active" alt="אוברול פסים כהים">
+          <img src="overall-imgs/54.jpg"  alt="אוברול פסים כהים">
+          <img src="overall-imgs/55.jpg"  alt="אוברול פסים כהים">
+          <img src="overall-imgs/170.jpg" alt="אוברול פסים כהים">
+          <img src="overall-imgs/171.jpg" alt="אוברול פסים כהים">
+          <img src="overall-imgs/172.jpg" alt="אוברול פסים כהים">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול פסים כהים</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- נייבי גרדיאנט -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/73.jpg" class="active" alt="אוברול נייבי">
+          <img src="overall-imgs/74.jpg" alt="אוברול נייבי">
+          <img src="overall-imgs/75.jpg" alt="אוברול נייבי">
+          <img src="overall-imgs/76.jpg" alt="אוברול נייבי">
+          <img src="overall-imgs/77.jpg" alt="אוברול נייבי">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול נייבי גרדיאנט</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- טורקיז גרדיאנט -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/86.jpg" class="active" alt="אוברול טורקיז">
+          <img src="overall-imgs/87.jpg" alt="אוברול טורקיז">
+          <img src="overall-imgs/88.jpg" alt="אוברול טורקיז">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול טורקיז גרדיאנט</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- כחול-סגול גרדיאנט -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/96.jpg" class="active" alt="אוברול כחול-סגול">
+          <img src="overall-imgs/97.jpg" alt="אוברול כחול-סגול">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול כחול-סגול גרדיאנט</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- שחור-כתום אלכסוני -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/111.jpg" class="active" alt="אוברול שחור-כתום">
+          <img src="overall-imgs/112.jpg" alt="אוברול שחור-כתום">
+          <img src="overall-imgs/113.jpg" alt="אוברול שחור-כתום">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול שחור-כתום</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- הדפס חייתי -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/116.jpg"   class="active" alt="אוברול הדפס חייתי">
+          <img src="overall-imgs/117.jpg"   alt="אוברול הדפס חייתי">
+          <img src="overall-imgs/118.jpg"   alt="אוברול הדפס חייתי">
+          <img src="overall-imgs/118 a.jpg" alt="אוברול הדפס חייתי">
+          <img src="overall-imgs/119.jpg"   alt="אוברול הדפס חייתי">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול הדפס חייתי</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- זברה-פרחים -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/126.jpg" class="active" alt="אוברול זברה-פרחים">
+          <img src="overall-imgs/127.jpg" alt="אוברול זברה-פרחים">
+          <img src="overall-imgs/128.jpg" alt="אוברול זברה-פרחים">
+          <img src="overall-imgs/154.jpg" alt="אוברול זברה-פרחים">
+          <img src="overall-imgs/158.jpg" alt="אוברול זברה-פרחים">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+          <span class="dot"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול זברה-פרחים</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- אדום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/139.jpg" class="active" alt="אוברול אדום">
+          <img src="overall-imgs/140.jpg" alt="אוברול אדום">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול אדום</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- פסים סגול -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/60.jpg" class="active" alt="אוברול פסים סגול">
+          <img src="overall-imgs/61.jpg" alt="אוברול פסים סגול">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול פסים סגול</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- אפור-חום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="overall-imgs/37.jpg" class="active" alt="אוברול אפור-חום">
+          <img src="overall-imgs/38.jpg" alt="אוברול אפור-חום">
+        </div>
+        <button class="carousel-btn prev-btn" aria-label="הקודם">&#8249;</button>
+        <button class="carousel-btn next-btn" aria-label="הבא">&#8250;</button>
+        <div class="carousel-dots">
+          <span class="dot active"></span><span class="dot"></span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>אוברול אפור-חום</h3>
+
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lbPrev">&#8249;</button>
+  <img class="lightbox-img" id="lbImg" src="" alt="תצוגה מוגדלת">
+  <button class="lightbox-nav lightbox-next" id="lbNext">&#8250;</button>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2024 הדסה – אופנה למידות גדולות &nbsp;|&nbsp;
+     <a href="tel:0546184554">054-618-4554</a>
+  </p>
+</footer>
+
+<!-- ===== FLOATING CONTACT BUTTONS ===== -->
+<div class="contact-bar">
+  <a href="https://wa.me/9720546184554" target="_blank" class="btn-contact btn-whatsapp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    וואטסאפ
+  </a>
+  <a href="tel:0546184554" class="btn-contact btn-call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+    התקשרי עכשיו
+  </a>
+</div>
+
+<script src="filter.js"></script>
+</body>
+</html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שמלות – הדסה</title>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="header-inner">
+    <nav>
+      <a href="index.html" aria-label="בית">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" style="display:block">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+      </a>
+      <a href="smalot.html" class="active">שמלות</a>
+      <a href="overalim.html">אוברולים</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <h1>👗 שמלות</h1>
+  <p>קולקציית שמלות לכול אירוע ולכול מצב רוח</p>
+</section>
+
+<!-- ===== FILTER BAR ===== -->
+<div class="filter-bar">
+  <span class="filter-label">סנני לפי:</span>
+  <button class="filter-btn active" data-filter="all">הכל</button>
+  <button class="filter-btn" data-filter="dark">כהה 🖤</button>
+  <button class="filter-btn" data-filter="light">בהיר 🤍</button>
+  <button class="filter-btn" data-filter="leo">מנומר 🐆</button>
+</div>
+
+<!-- ===== PRODUCTS GRID ===== -->
+<section class="products-section">
+  <div class="products-grid products-grid--3col" id="productsGrid">
+
+    <!-- ===== מנומר ===== -->
+
+    <!-- מוצר 1: שמלת מקסי לאופרד צוואר גבוה -->
+    <div class="product-card" data-color="leo">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/18.jpg" alt="שמלת מקסי לאופרד">
+          <img src="smalot-imgs/21.jpg" alt="שמלת מקסי לאופרד">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מקסי לאופרד – צוואר גבוה</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 2: שמלת מקסי לאופרד V-neck -->
+    <div class="product-card" data-color="leo">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/39.jpg" alt="שמלת מקסי לאופרד V">
+          <img src="smalot-imgs/40.jpg" alt="שמלת מקסי לאופרד V">
+          <img src="smalot-imgs/41.jpg" alt="שמלת מקסי לאופרד V">
+          <img src="smalot-imgs/42.jpg" alt="שמלת מקסי לאופרד V">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מקסי לאופרד – צוואר פתוח</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 3: שמלת לאופרד חד-כתף מיני -->
+    <div class="product-card" data-color="leo">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/44.jpg" alt="שמלת לאופרד חד כתף">
+          <img src="smalot-imgs/143.jpg" alt="שמלת לאופרד חד כתף">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת לאופרד – חד כתף</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- ===== בהיר ===== -->
+
+    <!-- מוצר 4: שמלת עלי דקל כחולה -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/2.jpg" alt="שמלת עלי דקל כחולה">
+          <img src="smalot-imgs/3.jpg" alt="שמלת עלי דקל כחולה">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת עלי דקל – כחול טורקיז</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 5: שמלה חד-כתף ירוקה -->
+    <div class="product-card" data-color="light">
+      <img src="smalot-imgs/20.jpg" alt="שמלה חד כתף ירוקה" class="single-img">
+      <div class="product-info">
+        <h3>שמלה חד כתף – פסים ירוק</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 6: שמלה פסים אדום-צבעוני -->
+    <div class="product-card" data-color="light">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/62.jpg" alt="שמלה פסים אדום">
+          <img src="smalot-imgs/63.jpg" alt="שמלה פסים אדום">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלה חד כתף – פסים אדום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 7: שמלת עלי דקל אדום-כתום -->
+    <div class="product-card" data-color="light">
+      <img src="smalot-imgs/64.jpg" alt="שמלת עלי דקל אדומה" class="single-img">
+      <div class="product-info">
+        <h3>שמלת עלי דקל – אדום כתום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 8: שמלת פסים ירוק-חום -->
+    <div class="product-card" data-color="light">
+      <img src="smalot-imgs/green rose.jpg" alt="שמלת פסים ירוק חום" class="single-img">
+      <div class="product-info">
+        <h3>שמלת פסים – ירוק רב צבעוני</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- ===== כהה ===== -->
+
+    <!-- מוצר 9: שמלת עלי דקל שחור-לבן -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/4.jpg" alt="שמלת עלי דקל שחור לבן">
+          <img src="smalot-imgs/174.jpg" alt="שמלת עלי דקל שחור לבן">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת עלי דקל – שחור לבן</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 10: שמלת בטווינג זית-כתום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/5.jpg" alt="שמלת בטווינג זית">
+          <img src="smalot-imgs/6.jpg" alt="שמלת בטווינג זית">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מיני – פסים זית כתום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 11: שמלה חד-כתף סגול-כחול -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/7.jpg" alt="שמלה חד כתף סגול כחול">
+          <img src="smalot-imgs/8.jpg" alt="שמלה חד כתף סגול כחול">
+          <img src="smalot-imgs/9.jpg" alt="שמלה חד כתף סגול כחול">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלה חד כתף – פסים סגול כחול</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 12: שמלת אימפייר פסים כחול-סגול -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/22.jpg" alt="שמלת אימפייר כחול סגול">
+          <img src="smalot-imgs/23.jpg" alt="שמלת אימפייר כחול סגול">
+          <img src="smalot-imgs/24.jpg" alt="שמלת אימפייר כחול סגול">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת אימפייר – פסים כחול סגול</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 13: שמלת אימפייר זית-כתום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/29.jpg" alt="שמלת אימפייר זית כתום">
+          <img src="smalot-imgs/30.jpg" alt="שמלת אימפייר זית כתום">
+          <img src="smalot-imgs/31.jpg" alt="שמלת אימפייר זית כתום">
+          <img src="smalot-imgs/32.jpg" alt="שמלת אימפייר זית כתום">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת אימפייר – פסים זית כתום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 14: שמלת מקסי אומברה כחול-סגול -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/56.jpg" alt="שמלת מקסי אומברה כחול סגול">
+          <img src="smalot-imgs/57.jpg" alt="שמלת מקסי אומברה כחול סגול">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מקסי – אומברה כחול סגול</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 15: שמלת מקסי אומברה חום-כתום -->
+    <div class="product-card" data-color="dark">
+      <img src="smalot-imgs/58.jpg" alt="שמלת מקסי אומברה חום" class="single-img">
+      <div class="product-info">
+        <h3>שמלת מקסי – אומברה חום כתום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 16: שמלת גיאומטרי כחולה קצרה -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/78.jpg" alt="שמלת גיאומטרי כחולה קצרה">
+          <img src="smalot-imgs/79.jpg" alt="שמלת גיאומטרי כחולה קצרה">
+          <img src="smalot-imgs/80.jpg" alt="שמלת גיאומטרי כחולה קצרה">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלה קצרה – גיאומטרי כחול</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 17א: שמלת מקסי גיאומטרי כחולה – צוואר פתוח -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/WhatsApp Image 2026-04-20 at 7.33.09 PM (2).jpeg" alt="שמלת מקסי גיאומטרי כחול – צוואר פתוח">
+      <div class="product-info">
+        <h3>שמלת מקסי – גיאומטרי כחול, צוואר פתוח</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 17ב: שמלת מקסי גיאומטרי כחולה – צוואר גבוה -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/89.jpg" alt="שמלת מקסי גיאומטרי כחול – צוואר גבוה">
+      <div class="product-info">
+        <h3>שמלת מקסי – גיאומטרי כחול, צוואר גבוה</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 18א: שמלת קפטן גיאומטרי שחור -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/WhatsApp Image 2026-04-20 at 7.33.10 PM.jpeg" alt="שמלת קפטן גיאומטרי שחור">
+      <div class="product-info">
+        <h3>שמלת קפטן – גיאומטרי שחור</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 18ב: שמלת קפטן גיאומטרי סגול -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/98.jpg" alt="שמלת קפטן גיאומטרי סגול">
+      <div class="product-info">
+        <h3>שמלת קפטן – גיאומטרי סגול</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 19: שמלת מקסי זברה-פרחים חום -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/100.jpg" alt="שמלת מקסי זברה חום">
+          <img src="smalot-imgs/101.jpg" alt="שמלת מקסי זברה חום">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מקסי – זברה פרחוני חום</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 20: שמלת מקסי זברה-פרחים שחור-כסף -->
+    <div class="product-card" data-color="dark">
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="smalot-imgs/103.jpg" alt="שמלת מקסי זברה שחור כסף">
+          <img src="smalot-imgs/102.jpg" alt="שמלת מקסי זברה שחור כסף">
+        </div>
+        <button class="carousel-btn prev-btn">&#8249;</button>
+        <button class="carousel-btn next-btn">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="product-info">
+        <h3>שמלת מקסי – זברה פרחוני שחור</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 21: שמלה חד-כתף גיאומטרי כהה -->
+    <div class="product-card" data-color="dark">
+      <img src="smalot-imgs/130.jpg" alt="שמלה חד כתף גיאומטרי" class="single-img">
+      <div class="product-info">
+        <h3>שמלה חד כתף – גיאומטרי כהה</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 22: שמלת מקסי אומברה אפור כהה -->
+    <div class="product-card" data-color="dark">
+      <img src="smalot-imgs/120.jpg" alt="שמלת מקסי אומברה כהה" class="single-img">
+      <div class="product-info">
+        <h3>שמלת מקסי – אומברה אפור כהה</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 23: שמלת מקסי שחורה -->
+    <div class="product-card" data-color="dark">
+      <img src="smalot-imgs/WhatsApp Image 2026-04-20 at 7.33.11 PM (1).jpeg" alt="שמלת מקסי שחורה" class="single-img">
+      <div class="product-info">
+        <h3>שמלת מקסי שחורה – קלאסית</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 24א: שמלת מקסי גיאומטרי שחור כסף – צוואר פתוח -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/163.jpg" alt="שמלת מקסי גיאומטרי שחור כסף – צוואר פתוח">
+      <div class="product-info">
+        <h3>שמלת מקסי – גיאומטרי שחור כסף, צוואר פתוח</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+    <!-- מוצר 24ב: שמלת מקסי גיאומטרי שחור כסף – צוואר גבוה -->
+    <div class="product-card" data-color="dark">
+      <img class="single-img" src="smalot-imgs/129.jpg" alt="שמלת מקסי גיאומטרי שחור כסף – צוואר גבוה">
+      <div class="product-info">
+        <h3>שמלת מקסי – גיאומטרי שחור כסף, צוואר גבוה</h3>
+        <div class="size-tag">מידות: One Size</div>
+      </div>
+    </div>
+
+  </div><!-- /products-grid -->
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2024 הדסה – אופנה למידות גדולות &nbsp;|&nbsp;
+     <a href="tel:0546184554">054-618-4554</a>
+  </p>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close" id="lbClose">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lbPrev">&#8250;</button>
+  <img class="lightbox-img" id="lbImg" src="" alt="">
+  <button class="lightbox-nav lightbox-next" id="lbNext">&#8249;</button>
+</div>
+
+<!-- ===== FLOATING CONTACT BUTTONS ===== -->
+<div class="contact-bar">
+  <a href="https://wa.me/9720546184554" target="_blank" class="btn-contact btn-whatsapp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    וואטסאפ
+  </a>
+  <a href="tel:0546184554" class="btn-contact btn-call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+    התקשרי עכשיו
+  </a>
+</div>
+
+<script src="filter.js"></script>
+<script>
+function initCarousels() {
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    const track    = carousel.querySelector('.carousel-track');
+    const imgs     = Array.from(track.querySelectorAll('img'));
+    const dotsWrap = carousel.querySelector('.carousel-dots');
+    const prevBtn  = carousel.querySelector('.prev-btn');
+    const nextBtn  = carousel.querySelector('.next-btn');
+    let current = 0;
+
+    // show first image
+    imgs[0].classList.add('active');
+
+    if (imgs.length <= 1) {
+      if (prevBtn) prevBtn.style.display = 'none';
+      if (nextBtn) nextBtn.style.display = 'none';
+      return;
+    }
+
+    // build dots
+    imgs.forEach((_, i) => {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(dot);
+    });
+
+    function goTo(n) {
+      imgs[current].classList.remove('active');
+      current = ((n % imgs.length) + imgs.length) % imgs.length;
+      imgs[current].classList.add('active');
+      dotsWrap.querySelectorAll('.dot').forEach((d, i) =>
+        d.classList.toggle('active', i === current)
+      );
+    }
+
+    if (prevBtn) prevBtn.addEventListener('click', () => goTo(current - 1));
+    if (nextBtn) nextBtn.addEventListener('click', () => goTo(current + 1));
+
+    // swipe
+    let startX = 0;
+    carousel.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    carousel.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 40) goTo(current + (diff > 0 ? 1 : -1));
+    });
+  });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initAll);
+} else {
+  initAll();
+}
+
+function initAll() {
+  initCarousels();
+  initLightbox();
+}
+
+// ===== LIGHTBOX =====
+function initLightbox() {
+  const lb      = document.getElementById('lightbox');
+  const lbImg   = document.getElementById('lbImg');
+  const lbClose = document.getElementById('lbClose');
+  const lbPrev  = document.getElementById('lbPrev');
+  const lbNext  = document.getElementById('lbNext');
+  let currentSrcs = [];
+  let currentIdx  = 0;
+
+  function openLb(srcs, idx) {
+    currentSrcs = srcs;
+    currentIdx  = idx;
+    lbImg.src = srcs[idx];
+    lb.classList.add('open');
+    // hide nav if only 1 image
+    const show = srcs.length > 1;
+    lbPrev.style.display = show ? '' : 'none';
+    lbNext.style.display = show ? '' : 'none';
+  }
+
+  function closeLb() { lb.classList.remove('open'); }
+
+  function lbGo(dir) {
+    currentIdx = ((currentIdx + dir) % currentSrcs.length + currentSrcs.length) % currentSrcs.length;
+    lbImg.src = currentSrcs[currentIdx];
+  }
+
+  lbClose.addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  lbPrev.addEventListener('click', () => lbGo(1));
+  lbNext.addEventListener('click', () => lbGo(-1));
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowRight') lbGo(1);
+    if (e.key === 'ArrowLeft')  lbGo(-1);
+  });
+
+  // swipe in lightbox
+  let lbStartX = 0;
+  lb.addEventListener('touchstart', e => { lbStartX = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', e => {
+    const diff = lbStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) lbGo(diff > 0 ? 1 : -1);
+  });
+
+  // attach click to all carousel images
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    const imgs = Array.from(carousel.querySelectorAll('.carousel-track img'));
+    const srcs = imgs.map(i => i.src);
+    imgs.forEach((img, idx) => {
+      img.addEventListener('click', () => openLb(srcs, idx));
+    });
+  });
+
+  // attach click to single images
+  document.querySelectorAll('.single-img').forEach(img => {
+    img.addEventListener('click', () => openLb([img.src], 0));
+  });
+}
+</script>
+
+</body>
+</html>
